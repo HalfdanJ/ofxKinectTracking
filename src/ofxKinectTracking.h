@@ -8,13 +8,23 @@
 #pragma once
 
 #include "ofxKinect.h"
+#include "ofMain.h"
+
+
 class ofxKinectTracking {
 public:
 	int highlightGroup;
 	ofxKinect * kinect;
 	
 	
+	ofVideoGrabber  videoGrabber;
+	unsigned char		*pixels;				// temp buffer
+
+	
 	void init();
 	void update();
 	void drawDepth(int x, int y, int w, int h);
+	
+	void clear();
+	void resetBufferData();
 };

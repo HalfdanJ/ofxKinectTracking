@@ -8,7 +8,9 @@ void testApp::setup(){
 	
 	tracker = new ofxKinectTracking();
 	tracker->init();
+	ofSetVerticalSync(true);
 
+	ofSetFrameRate(30);
 }
 
 //--------------------------------------------------------------
@@ -33,7 +35,9 @@ void testApp::keyPressed(int key){
 
 //--------------------------------------------------------------
 void testApp::keyReleased(int key){
-	
+	if(key == 'c'){
+		tracker->clear();
+	}
 }
 
 //--------------------------------------------------------------

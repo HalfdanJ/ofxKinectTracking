@@ -1,12 +1,16 @@
 
-#define dieThreshold 0.03921568627
+#define dieThreshold 2/255.0//0.03921568627
 #define friendThreshold 2/255.0 //0.007843137255
+#define switchBackThreshold 2/255.0
 
 typedef struct{
 	float lastValue;
 	float value;
-	int wakeUp;
 	int group;
+	unsigned int groupTime;
+	int lastGroup;
+	unsigned int lastGroupTime;
+	float lastGroupValue;
 } Ant;
 
 
@@ -110,7 +114,7 @@ void HsvToRgb(float h, float S, float V, float * r, float * g, float * b)
 
 
 //This kernel vil update the pixelvalue for the ant, and see if it should die because of a change
-__kernel void killing(read_only image2d_t srcImage,  __global Ant* pIn){        
+__kernel void preUpdate(read_only image2d_t srcImage,  __global Ant* pIn){        
 	int2 coords = (int2)(get_global_id(0), get_global_id(1));	
 	
 	//Get the ant at this coordinate
@@ -123,33 +127,41 @@ __kernel void killing(read_only image2d_t srcImage,  __global Ant* pIn){
 	
 	//Kill ants that have moved to fast
 	if(fabs(value - a->lastValue) > dieThreshold){
+		a->lastGroup = a->group;
+		a->lastGroupTime = a->groupTime;
 		a->group = -1;
+		a->groupTime = 0;
+		a->lastGroupValue = a->lastValue;
 	}
+	
+	
 	
 	//Update lastValue to the current value
 	a->lastValue = value;	
+	a->groupTime ++;
 }
 
 
 
 //This kernel will spawn new ants, and after that try and seed new ants. 
-__kernel void spawning(__global Ant* pIn, __global int * sharedVariables, const int2 spawnCoord, __local int * shared){        
+__kernel void update(__global Ant* pIn, __global int * sharedVariables, const int2 spawnCoord, __local int * shared){        
 	int2 coords = (int2)(get_global_id(0), get_global_id(1));		
 	//Get the ant at this coordinate
 	__global Ant *a = &pIn[coords.x + coords.y*640];
 	int group = a->group;	
 	float value = a->value;
 	
-
-
-
-
+	
+	
+	
+	
 	if(group == -1 && value > 0){
-		
-		//Spawn new goups randomly
-		if(spawnCoord.x == coords.x && spawnCoord.y == coords.y){
-			group = sharedVariables[0]++;
+
+		//If im closer to my old group, switch
+		/*if(fabs(a->lastGroupValue - value) < switchBackThreshold){
+			group = a->lastGroup;
 		}
+		*/
 		
 		//Check neighbor to the right
 		if(group == -1){						
@@ -206,6 +218,13 @@ __kernel void spawning(__global Ant* pIn, __global int * sharedVariables, const 
 				}
 			}
 		}
+		
+				
+		//Spawn new goups randomly
+		if(group == -1 && spawnCoord.x == coords.x && spawnCoord.y == coords.y){
+			group = sharedVariables[0]++;
+		}
+		
 		
 		//If this proccess gave a group, fill the area
 		if(group != -1){
@@ -277,13 +296,14 @@ __kernel void spawning(__global Ant* pIn, __global int * sharedVariables, const 
 		
 		//Update the groupvalue in the global memory if changed
 		if(group != -1){
+			a->groupTime = 0;
 			a->group = group;
 		}
 	}
 }
 
 //This kernel will update the debug image with colored groups
-__kernel void updateImage(read_only image2d_t srcImage, write_only image2d_t dstImage,  __global Ant* pIn, __global int * sharedVariables, const int2 spawnCoord){        
+__kernel void postUpdate(read_only image2d_t srcImage, write_only image2d_t dstImage,  __global Ant* pIn, __global int * sharedVariables, const int2 spawnCoord){        
 	int2 coords = (int2)(get_global_id(0), get_global_id(1));		
 	__global Ant *a = &pIn[coords.x + coords.y*640];
 	
