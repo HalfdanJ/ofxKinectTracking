@@ -149,13 +149,15 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 	//Get the ant at this coordinate
 	__global Ant *a = &pIn[coords.x + coords.y*640];
 	int group = a->group;	
+	int initialGroup = group;
 	float value = a->value;
 	
 	
 	
 	
 	
-	if(group == -1 && value > 0){
+//	if(group == -1 && value > 0){
+	{
 
 		//If im closer to my old group, switch
 		/*if(fabs(a->lastGroupValue - value) < switchBackThreshold){
@@ -164,56 +166,106 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 		*/
 		
 		//Check neighbor to the right
-		if(group == -1){						
+		//if(group == -1){	
+		float friendDifference = 1;
+		float foolDifference = 1;
+		int friendsCount;					
+		{
 			int2 neighborCoord = coords; 
-			neighborCoord.x += 1;				
-			
+			neighborCoord.x += 1;					
 			if(neighborCoord.x < 640 ){	
 				__global Ant * neighbor = &pIn[neighborCoord.x + neighborCoord.y*640];							
-				float neighborValue = neighbor->value;				
-				if(neighbor->group != -1 && fabs(neighborValue - value) < friendThreshold){
-					group = neighbor->group;	
+				float neighborValue = neighbor->value;			
+				int neighborGroup = neighbor->group;
+				if(neighborGroup == initialGroup){
+					friendsCount ++;
+					if(neighborValue < friendDifference){
+						friendDifference = neighborValue;
+					}
+				} else {
+					if(neighborValue < foolDifference){
+						foolDifference = neighborValue;
+					}
+				}	
+				if(group == -1 && neighbor->group != -1 && fabs(neighborValue - value) < friendThreshold){
+					group = neighborGroup;
 				}
 			}
 		}
 		
 		//Check neighbor to the left
-		if(group == -1){			
+	//	if(group == -1){			
+	{
 			int2 neighborCoord = coords; 
 			neighborCoord.x -= 1;		
 			
 			if(neighborCoord.x > 0 ){	
 				__global Ant * neighbor = &pIn[neighborCoord.x + neighborCoord.y*640];							
 				float neighborValue = neighbor->value;				
-				if(neighbor->group != -1 &&fabs(neighborValue - value) < friendThreshold){
+				int neighborGroup = neighbor->group;
+				if(neighborGroup == initialGroup){
+					friendsCount ++;
+					if(neighborValue < friendDifference){
+						friendDifference = neighborValue;
+					}
+				} else {
+					if(neighborValue < foolDifference){
+						foolDifference = neighborValue;
+					}
+				}	
+				if(group == -1 && neighbor->group != -1 &&fabs(neighborValue - value) < friendThreshold){
 					group = neighbor->group;	
 				}
 			}
 		}
 		
 		//Check neighbor downwards
-		if(group == -1){			
+		//if(group == -1){			
+		{
 			int2 neighborCoord = coords; 
 			neighborCoord.y += 1;		
 			
 			if(neighborCoord.y < 480 ){	
 				__global Ant * neighbor = &pIn[neighborCoord.x + neighborCoord.y*640];							
 				float neighborValue = neighbor->value;				
-				if(neighbor->group != -1 &&fabs(neighborValue - value) < friendThreshold){
+				int neighborGroup = neighbor->group;
+				if(neighborGroup == initialGroup){
+					friendsCount ++;
+					if(neighborValue < friendDifference){
+						friendDifference = neighborValue;
+					}
+				} else {
+					if(neighborValue < foolDifference){
+						foolDifference = neighborValue;
+					}
+				}	
+				if(group == -1 && neighbor->group != -1 &&fabs(neighborValue - value) < friendThreshold){
 					group = neighbor->group;	
 				}
 			}
 		}	
 		
 		//Check neighbor upwards
-		if(group == -1){			
+		//if(group == -1){			
+		{
 			int2 neighborCoord = coords; 
 			neighborCoord.y -= 1;		
 			
 			if(neighborCoord.y > 0 ){
 				__global Ant * neighbor = &pIn[neighborCoord.x + neighborCoord.y*640];							
 				float neighborValue = neighbor->value;				
-				if(neighbor->group != -1  &&fabs(neighborValue - value) < friendThreshold){
+				int neighborGroup = neighbor->group;
+				if(neighborGroup == initialGroup){
+					friendsCount ++;
+					if(neighborValue < friendDifference){
+						friendDifference = neighborValue;
+					}
+				} else {
+					if(neighborValue < foolDifference){
+						foolDifference = neighborValue;
+					}
+				}	
+				if(group == -1 && neighbor->group != -1  &&fabs(neighborValue - value) < friendThreshold){
 					group = neighbor->group;	
 				}
 			}
@@ -227,7 +279,7 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 		
 		
 		//If this proccess gave a group, fill the area
-		if(group != -1){
+		if(initialGroup == -1 && group != -1){
 			{ //Fill to the right
 				int2 neighborCoord = coords; 
 				neighborCoord.x += 1;			
@@ -295,7 +347,7 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 		}
 		
 		//Update the groupvalue in the global memory if changed
-		if(group != -1){
+		if(group != initialGroup){
 			a->groupTime = 0;
 			a->group = group;
 		}
