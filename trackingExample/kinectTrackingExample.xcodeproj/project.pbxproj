@@ -1316,10 +1316,6 @@
 					../../../libs/poco/include,
 					../../../addons/,
 				);
-				LIBRARY_SEARCH_PATHS = (
-					/usr/include/libusb,
-					/usr/local/lib/,
-				);
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-lpthread",

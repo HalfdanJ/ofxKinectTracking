@@ -236,6 +236,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -296,15 +298,16 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>56</integer>
-									<integer>55</integer>
-									<integer>52</integer>
+									<integer>22</integer>
+									<integer>21</integer>
+									<integer>12</integer>
+									<integer>11</integer>
 									<integer>10</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 460}, {314, 714}}</string>
+							<string>{{0, 140}, {314, 714}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -332,14 +335,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>DD523DB3129D37AA006F6330</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>KinectTracking.cl</string>
+								<string>usb_libusb10.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -347,11 +348,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>DD523DB4129D37AA006F6330</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>KinectTracking.cl</string>
+										<string>usb_libusb10.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DDDDDCDC12A45B3700521345</string>
+										<string>DDDDDCEC12A4619000521345</string>
 										<key>history</key>
 										<array>
 											<string>DD52406F129D73E9006F6330</string>
@@ -371,7 +372,6 @@
 											<string>DD4EE60D129EF5B8001565D0</string>
 											<string>DD4EE61D129EF619001565D0</string>
 											<string>DD4EE61E129EF619001565D0</string>
-											<string>DD4EE61F129EF619001565D0</string>
 											<string>DD4EE63F129F11CB001565D0</string>
 											<string>DD4EE640129F11CB001565D0</string>
 											<string>DD4EE641129F11CB001565D0</string>
@@ -382,7 +382,6 @@
 											<string>DDDDDACC12A011E500521345</string>
 											<string>DDDDDB2612A0138A00521345</string>
 											<string>DDDDDB2712A0138A00521345</string>
-											<string>DDDDDB3112A013A600521345</string>
 											<string>DDDDDB7312A12B1500521345</string>
 											<string>DDDDDBAD12A12BFF00521345</string>
 											<string>DDDDDBBA12A12EF900521345</string>
@@ -393,7 +392,10 @@
 											<string>DDDDDC3D12A1333800521345</string>
 											<string>DDDDDC3E12A1333800521345</string>
 											<string>DDDDDC5A12A134D600521345</string>
-											<string>DDDDDCA612A1382F00521345</string>
+											<string>DDDDDCE812A4619000521345</string>
+											<string>DDDDDCE912A4619000521345</string>
+											<string>DDDDDCEA12A4619000521345</string>
+											<string>DDDDDCEB12A4619000521345</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -709,12 +711,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>DDDDDCDD12A45B3700521345</string>
 		<string>DDDDDA3B12A0066300521345</string>
 		<string>DDDDDA3C12A0066300521345</string>
-		<string>DD4EE4C1129EADD2001565D0</string>
-		<string>DD4EDFB0129DEC8C001565D0</string>
-		<string>DD4EDFAA129DEC8C001565D0</string>
 		<string>/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addons/ofxKinectTracking/trackingExample/kinectTrackingExample.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

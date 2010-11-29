@@ -269,7 +269,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1043, 4784}}";
 			sepNavSelRange = "{6113, 0}";
-			sepNavVisRange = "{4093, 843}";
+			sepNavVisRange = "{4093, 957}";
 			sepNavWindowFrame = "{{222, 50}, {1156, 828}}";
 		};
 	};
@@ -340,23 +340,23 @@
 	};
 	DD4EE5DF129EF591001565D0 /* usb_libusb10.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 1170}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 1157}}";
 			sepNavSelRange = "{1142, 0}";
-			sepNavVisRange = "{0, 1984}";
+			sepNavVisRange = "{0, 1224}";
 		};
 	};
 	DD4EE5E4129EF591001565D0 /* libusb.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 17186}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 17212}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 2030}";
+			sepNavVisRange = "{0, 1131}";
 		};
 	};
 	DD4EE5F8129EF591001565D0 /* ofxKinect.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1379, 6474}}";
-			sepNavSelRange = "{9989, 0}";
-			sepNavVisRange = "{9711, 604}";
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 6773}}";
+			sepNavSelRange = "{5807, 0}";
+			sepNavVisRange = "{5837, 740}";
 		};
 	};
 	DD4EE5F9129EF591001565D0 /* ofxKinect.h */ = {
@@ -4902,6 +4902,56 @@
 		vrLen = 843;
 		vrLoc = 4093;
 	};
+	DDDDDCE812A4619000521345 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD4EE3DC129EA37B001565D0 /* KinectTracking.cl */;
+		name = "KinectTracking.cl: 267";
+		rLen = 0;
+		rLoc = 6113;
+		rType = 0;
+		vrLen = 957;
+		vrLoc = 4093;
+	};
+	DDDDDCE912A4619000521345 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD4EE5F8129EF591001565D0 /* ofxKinect.cpp */;
+		name = "ofxKinect.cpp: 208";
+		rLen = 0;
+		rLoc = 5807;
+		rType = 0;
+		vrLen = 740;
+		vrLoc = 5837;
+	};
+	DDDDDCEA12A4619000521345 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD4EE5E4129EF591001565D0 /* libusb.h */;
+		name = "libusb.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 0;
+	};
+	DDDDDCEB12A4619000521345 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD4EE5DF129EF591001565D0 /* usb_libusb10.h */;
+		name = "usb_libusb10.h: 29";
+		rLen = 0;
+		rLoc = 1142;
+		rType = 0;
+		vrLen = 1224;
+		vrLoc = 0;
+	};
+	DDDDDCEC12A4619000521345 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD4EE5DF129EF591001565D0 /* usb_libusb10.h */;
+		name = "usb_libusb10.h: 29";
+		rLen = 0;
+		rLoc = 1142;
+		rType = 0;
+		vrLen = 1224;
+		vrLoc = 0;
+	};
 	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = DD523DC3129D37D1006F6330 /* ofxKinect */;
@@ -5388,6 +5438,11 @@
 			DDDDDCD712A13B7000521345 /* PBXTextBookmark */ = DDDDDCD712A13B7000521345 /* PBXTextBookmark */;
 			DDDDDCD812A13B7000521345 /* PBXTextBookmark */ = DDDDDCD812A13B7000521345 /* PBXTextBookmark */;
 			DDDDDCDC12A45B3700521345 /* PBXTextBookmark */ = DDDDDCDC12A45B3700521345 /* PBXTextBookmark */;
+			DDDDDCE812A4619000521345 /* PBXTextBookmark */ = DDDDDCE812A4619000521345 /* PBXTextBookmark */;
+			DDDDDCE912A4619000521345 /* PBXTextBookmark */ = DDDDDCE912A4619000521345 /* PBXTextBookmark */;
+			DDDDDCEA12A4619000521345 /* PBXTextBookmark */ = DDDDDCEA12A4619000521345 /* PBXTextBookmark */;
+			DDDDDCEB12A4619000521345 /* PBXTextBookmark */ = DDDDDCEB12A4619000521345 /* PBXTextBookmark */;
+			DDDDDCEC12A4619000521345 /* PBXTextBookmark */ = DDDDDCEC12A4619000521345 /* PBXTextBookmark */;
 		};
 		sourceControlManager = DD523DCB129D37E5006F6330 /* Source Control */;
 		userBuildSettings = {
