@@ -156,21 +156,22 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 	
 	
 	
-//	if(group == -1 && value > 0){
+	if(group == -1 && value > 0)
 	{
-
+		
 		//If im closer to my old group, switch
 		/*if(fabs(a->lastGroupValue - value) < switchBackThreshold){
-			group = a->lastGroup;
-		}
-		*/
+		 group = a->lastGroup;
+		 }
+		 */
 		
 		//Check neighbor to the right
-		//if(group == -1){	
 		float friendDifference = 1;
 		float foolDifference = 1;
 		int friendsCount;					
-		{
+		
+		if(group == -1){	
+			
 			int2 neighborCoord = coords; 
 			neighborCoord.x += 1;					
 			if(neighborCoord.x < 640 ){	
@@ -194,8 +195,8 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 		}
 		
 		//Check neighbor to the left
-	//	if(group == -1){			
-	{
+			if(group == -1)
+		{
 			int2 neighborCoord = coords; 
 			neighborCoord.x -= 1;		
 			
@@ -220,7 +221,7 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 		}
 		
 		//Check neighbor downwards
-		//if(group == -1){			
+		if(group == -1)
 		{
 			int2 neighborCoord = coords; 
 			neighborCoord.y += 1;		
@@ -246,7 +247,7 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 		}	
 		
 		//Check neighbor upwards
-		//if(group == -1){			
+		if(group == -1)
 		{
 			int2 neighborCoord = coords; 
 			neighborCoord.y -= 1;		
@@ -271,7 +272,7 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 			}
 		}
 		
-				
+		
 		//Spawn new goups randomly
 		if(group == -1 && spawnCoord.x == coords.x && spawnCoord.y == coords.y){
 			group = sharedVariables[0]++;

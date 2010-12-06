@@ -6,7 +6,8 @@
  *
  */
 
-#define NORMAL_CAMERA
+//#define NORMAL_CAMERA
+#define NUM_ITERATIONS 5
 
 
 #include "ofxKinectTracking.h"
@@ -172,8 +173,8 @@ void ofxKinectTracking::update(){
 		updateKernel->setArg(1, clSharedBuffer.getCLMem());
 		updateKernel->setArg(2, spawnCoord);
 		clSetKernelArg(updateKernel->getCLKernel(), 3, shared_size, NULL);
-		for(int i=0;i<5;i++){
-			updateKernel->run2D(640, 480,8,8);
+		for(int i=0;i<NUM_ITERATIONS;i++){
+			updateKernel->run2D(640, 480);
 		}
 		
 		//Calculate time
