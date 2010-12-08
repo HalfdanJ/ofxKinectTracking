@@ -160,10 +160,10 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 	{
 		
 		//If im closer to my old group, switch
-		/*if(fabs(a->lastGroupValue - value) < switchBackThreshold){
-		 group = a->lastGroup;
-		 }
-		 */
+		if(fabs(a->lastGroupValue - value) <= fabs(a->lastValue - value)){
+			group = a->lastGroup;
+		}
+		
 		
 		//Check neighbor to the right
 		float friendDifference = 1;
@@ -171,7 +171,6 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 		int friendsCount;					
 		
 		if(group == -1){	
-			
 			int2 neighborCoord = coords; 
 			neighborCoord.x += 1;					
 			if(neighborCoord.x < 640 ){	
@@ -195,7 +194,7 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 		}
 		
 		//Check neighbor to the left
-			if(group == -1)
+		if(group == -1)
 		{
 			int2 neighborCoord = coords; 
 			neighborCoord.x -= 1;		

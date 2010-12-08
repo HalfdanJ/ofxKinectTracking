@@ -7,35 +7,12 @@
 			sepNavVisRange = "{636, 854}";
 		};
 	};
-	DD11C4FF129FEF9600844361 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD52420D129DDA7B006F6330 /* MSAOpenCL.cpp */;
-		name = "MSAOpenCL.cpp: 63";
-		rLen = 57;
-		rLoc = 2580;
-		rType = 0;
-		vrLen = 1672;
-		vrLoc = 1949;
-	};
-	DD11C71D129FFEFC00844361 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD524214129DDA7B006F6330 /* MSAOpenCLKernel.cpp */;
-		name = "MSAOpenCLKernel.cpp: 89";
-		rLen = 106;
-		rLoc = 3371;
-		rType = 0;
-		vrLen = 1778;
-		vrLoc = 2461;
-	};
-	DD11C727129FFF1300844361 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD524215129DDA7B006F6330 /* MSAOpenCLKernel.h */;
-		name = "MSAOpenCLKernel.h: 62";
-		rLen = 38;
-		rLoc = 2403;
-		rType = 0;
-		vrLen = 1730;
-		vrLoc = 1994;
+	DD21DBEF12AD3E3C001DAFDD /* install.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 494}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1062}";
+		};
 	};
 	DD21DC2312AD3E3C001DAFDD /* MSAOpenCLImagePingPong.h */ = {
 		uiCtxt = {
@@ -43,178 +20,6 @@
 			sepNavSelRange = "{284, 0}";
 			sepNavVisRange = "{0, 644}";
 		};
-	};
-	DD21DC4812AD3EE2001DAFDD /* libfreenect.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 1872}}";
-			sepNavSelRange = "{2275, 0}";
-			sepNavVisRange = "{1706, 734}";
-		};
-	};
-	DD21DC4912AD3EE2001DAFDD /* tilt.c */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 1183}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1316}";
-		};
-	};
-	DD21DC4A12AD3EE2001DAFDD /* usb_libusb10.c */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 2860}}";
-			sepNavSelRange = "{2, 0}";
-			sepNavVisRange = "{1334, 564}";
-		};
-	};
-	DD21DC4B12AD3EE2001DAFDD /* usb_libusb10.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 1118}}";
-			sepNavSelRange = "{1143, 31}";
-			sepNavVisRange = "{3, 1295}";
-		};
-	};
-	DD21DC5412AD3EE2001DAFDD /* ofxKinect.cpp */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 6695}}";
-			sepNavSelRange = "{5807, 0}";
-			sepNavVisRange = "{5784, 798}";
-		};
-	};
-	DD21DC5512AD3EE2001DAFDD /* ofxKinect.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 1976}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 795}";
-		};
-	};
-	DD21DC9912AD417E001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD4EE3DC129EA37B001565D0 /* KinectTracking.cl */;
-		name = "KinectTracking.cl: 280";
-		rLen = 0;
-		rLoc = 6390;
-		rType = 0;
-		vrLen = 1066;
-		vrLoc = 5994;
-	};
-	DD21DC9A12AD417E001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD21DC2312AD3E3C001DAFDD /* MSAOpenCLImagePingPong.h */;
-		name = "MSAOpenCLImagePingPong.h: 22";
-		rLen = 0;
-		rLoc = 284;
-		rType = 0;
-		vrLen = 644;
-		vrLoc = 0;
-	};
-	DD21DC9B12AD417E001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD5241E7129DD9AB006F6330 /* ofxKinectTracking.cpp */;
-		name = "ofxKinectTracking.cpp: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 597;
-		vrLoc = 0;
-	};
-	DD21DC9C12AD417E001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD21DC4912AD3EE2001DAFDD /* tilt.c */;
-		name = "tilt.c: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1316;
-		vrLoc = 0;
-	};
-	DD21DC9D12AD417E001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD21DC4B12AD3EE2001DAFDD /* usb_libusb10.h */;
-		name = "usb_libusb10.h: 30";
-		rLen = 31;
-		rLoc = 1143;
-		rType = 0;
-		vrLen = 1295;
-		vrLoc = 3;
-	};
-	DD21DC9E12AD417E001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD21DC4812AD3EE2001DAFDD /* libfreenect.h */;
-		name = "libfreenect.h: 77";
-		rLen = 0;
-		rLoc = 2275;
-		rType = 0;
-		vrLen = 734;
-		vrLoc = 1706;
-	};
-	DD21DC9F12AD417E001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD21DC4A12AD3EE2001DAFDD /* usb_libusb10.c */;
-		name = "usb_libusb10.c: 31";
-		rLen = 0;
-		rLoc = 1201;
-		rType = 0;
-		vrLen = 1296;
-		vrLoc = 0;
-	};
-	DD21DCA012AD417E001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD21DC4A12AD3EE2001DAFDD /* usb_libusb10.c */;
-		name = "usb_libusb10.c: 31";
-		rLen = 0;
-		rLoc = 1206;
-		rType = 0;
-		vrLen = 1307;
-		vrLoc = 0;
-	};
-	DD21DCBF12AD4286001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD21DC4A12AD3EE2001DAFDD /* usb_libusb10.c */;
-		name = "usb_libusb10.c: 1";
-		rLen = 0;
-		rLoc = 2;
-		rType = 0;
-		vrLen = 564;
-		vrLoc = 1334;
-	};
-	DD21DCC012AD4286001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD21DC5512AD3EE2001DAFDD /* ofxKinect.h */;
-		name = "ofxKinect.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 795;
-		vrLoc = 0;
-	};
-	DD21DCC112AD4286001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD21DC5412AD3EE2001DAFDD /* ofxKinect.cpp */;
-		name = "ofxKinect.cpp: 214";
-		rLen = 0;
-		rLoc = 5807;
-		rType = 0;
-		vrLen = 798;
-		vrLoc = 5784;
-	};
-	DD21DCC212AD4286001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
-		name = "testApp.cpp: 35";
-		rLen = 0;
-		rLoc = 679;
-		rType = 0;
-		vrLen = 828;
-		vrLoc = 397;
-	};
-	DD21DCC312AD4286001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
-		name = "testApp.cpp: 35";
-		rLen = 0;
-		rLoc = 679;
-		rType = 0;
-		vrLen = 787;
-		vrLoc = 677;
 	};
 	DD21DCC812AD42AB001DAFDD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -256,35 +61,25 @@
 		vrLen = 597;
 		vrLoc = 0;
 	};
-	DD21DCCC12AD42AB001DAFDD /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD5241E7129DD9AB006F6330 /* ofxKinectTracking.cpp */;
-		name = "ofxKinectTracking.cpp: 9";
-		rLen = 0;
-		rLoc = 133;
-		rType = 0;
-		vrLen = 599;
-		vrLoc = 0;
-	};
-	DD21DCD112AD42E6001DAFDD /* PBXTextBookmark */ = {
+	DD21DEEA12AE7B84001DAFDD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DD5241E7129DD9AB006F6330 /* ofxKinectTracking.cpp */;
 		name = "ofxKinectTracking.cpp: 10";
 		rLen = 0;
 		rLoc = 179;
 		rType = 0;
-		vrLen = 574;
-		vrLoc = 0;
+		vrLen = 630;
+		vrLoc = 3;
 	};
-	DD21DCD512AD42F9001DAFDD /* PBXTextBookmark */ = {
+	DD350E2612B00DE600953E21 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = DD5241E7129DD9AB006F6330 /* ofxKinectTracking.cpp */;
-		name = "ofxKinectTracking.cpp: 10";
+		fRef = DD82884312B009B7009AC8D3 /* libfreenect.h */;
+		name = "libfreenect.h: 106";
 		rLen = 0;
-		rLoc = 179;
+		rLoc = 3135;
 		rType = 0;
-		vrLen = 599;
-		vrLoc = 0;
+		vrLen = 778;
+		vrLoc = 2688;
 	};
 	DD4EDFCF129DECFF001565D0 /* gl.h */ = {
 		isa = PBXFileReference;
@@ -356,31 +151,11 @@
 	};
 	DD4EE3DC129EA37B001565D0 /* KinectTracking.cl */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 4966}}";
-			sepNavSelRange = "{6390, 0}";
-			sepNavVisRange = "{5994, 1061}";
+			sepNavIntBoundsRect = "{{0, 0}, {1195, 4927}}";
+			sepNavSelRange = "{2362, 2}";
+			sepNavVisRange = "{1594, 882}";
 			sepNavWindowFrame = "{{222, 50}, {1156, 828}}";
 		};
-	};
-	DD4EE3E2129EA3E5001565D0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD524218129DDA7B006F6330 /* MSAOpenCLProgram.cpp */;
-		name = "MSAOpenCLProgram.cpp: 62";
-		rLen = 74;
-		rLoc = 2448;
-		rType = 0;
-		vrLen = 856;
-		vrLoc = 1969;
-	};
-	DD4EE41D129EA5D1001565D0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD524213129DDA7B006F6330 /* MSAOpenCLImagePingPong.h */;
-		name = "MSAOpenCLImagePingPong.h: 30";
-		rLen = 23;
-		rLoc = 531;
-		rType = 0;
-		vrLen = 594;
-		vrLoc = 0;
 	};
 	DD4EE5D9129EF591001565D0 /* cameras.c */ = {
 		isa = PBXFileReference;
@@ -389,11 +164,6 @@
 		name = cameras.c;
 		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addons/ofxKinect/libs/libfreenect/cameras.c";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 6643}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1768}";
-		};
 	};
 	DD4EE5DB129EF591001565D0 /* freenect_internal.h */ = {
 		isa = PBXFileReference;
@@ -402,63 +172,6 @@
 		name = freenect_internal.h;
 		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addons/ofxKinect/libs/libfreenect/freenect_internal.h";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 1664}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1988}";
-		};
-	};
-	DD4EE5DC129EF591001565D0 /* libfreenect.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = libfreenect.h;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addons/ofxKinect/libs/libfreenect/libfreenect.h";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 1859}}";
-			sepNavSelRange = "{2286, 0}";
-			sepNavVisRange = "{1145, 1357}";
-		};
-	};
-	DD4EE5DD129EF591001565D0 /* tilt.c */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.c;
-		name = tilt.c;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addons/ofxKinect/libs/libfreenect/tilt.c";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 1248}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1959}";
-		};
-	};
-	DD4EE5DE129EF591001565D0 /* usb_libusb10.c */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.c;
-		name = usb_libusb10.c;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addons/ofxKinect/libs/libfreenect/usb_libusb10.c";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1859, 2873}}";
-			sepNavSelRange = "{1230, 0}";
-			sepNavVisRange = "{896, 459}";
-		};
-	};
-	DD4EE5DF129EF591001565D0 /* usb_libusb10.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = usb_libusb10.h;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addons/ofxKinect/libs/libfreenect/usb_libusb10.h";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 1157}}";
-			sepNavSelRange = "{1142, 0}";
-			sepNavVisRange = "{80, 1348}";
-		};
 	};
 	DD4EE5E4129EF591001565D0 /* libusb.h */ = {
 		isa = PBXFileReference;
@@ -467,37 +180,6 @@
 		name = libusb.h;
 		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addons/ofxKinect/libs/libusb/osx/include/libusb-1.0/libusb.h";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 17212}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1131}";
-		};
-	};
-	DD4EE5F8129EF591001565D0 /* ofxKinect.cpp */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.cpp.cpp;
-		name = ofxKinect.cpp;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addons/ofxKinect/src/ofxKinect.cpp";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 6643}}";
-			sepNavSelRange = "{5807, 0}";
-			sepNavVisRange = "{5837, 740}";
-		};
-	};
-	DD4EE5F9129EF591001565D0 /* ofxKinect.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = ofxKinect.h;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addons/ofxKinect/src/ofxKinect.h";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 1976}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1313}";
-		};
 	};
 	DD4EE60C129EF5B8001565D0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -509,26 +191,6 @@
 		vrLen = 1988;
 		vrLoc = 0;
 	};
-	DD4EE60D129EF5B8001565D0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD4EE5DD129EF591001565D0 /* tilt.c */;
-		name = "tilt.c: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1959;
-		vrLoc = 0;
-	};
-	DD4EE61D129EF619001565D0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD4EE5DC129EF591001565D0 /* libfreenect.h */;
-		name = "libfreenect.h: 78";
-		rLen = 0;
-		rLoc = 2275;
-		rType = 0;
-		vrLen = 1357;
-		vrLoc = 1145;
-	};
 	DD4EE61E129EF619001565D0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DD4EE5D9129EF591001565D0 /* cameras.c */;
@@ -538,36 +200,6 @@
 		rType = 0;
 		vrLen = 1768;
 		vrLoc = 0;
-	};
-	DD4EE63F129F11CB001565D0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD4EE5DE129EF591001565D0 /* usb_libusb10.c */;
-		name = "usb_libusb10.c: 32";
-		rLen = 0;
-		rLoc = 1230;
-		rType = 0;
-		vrLen = 1376;
-		vrLoc = 480;
-	};
-	DD4EE640129F11CB001565D0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD524216129DDA7B006F6330 /* MSAOpenCLMemoryObject.cpp */;
-		name = "MSAOpenCLMemoryObject.cpp: 56";
-		rLen = 42;
-		rLoc = 2381;
-		rType = 0;
-		vrLen = 2437;
-		vrLoc = 164;
-	};
-	DD4EE641129F11CB001565D0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD524217129DDA7B006F6330 /* MSAOpenCLMemoryObject.h */;
-		name = "MSAOpenCLMemoryObject.h: 44";
-		rLen = 28;
-		rLoc = 2049;
-		rType = 0;
-		vrLen = 2159;
-		vrLoc = 164;
 	};
 	DD4EE656129F14A4001565D0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -670,18 +302,38 @@
 		path = "/usr/include/c++/4.2.1/bits/stl_vector.h";
 		sourceTree = "<absolute>";
 	};
-	DD5241E5129DD9AB006F6330 /* README */ = {
+	DD5241B2129DD9AB006F6330 /* HEAD */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 444}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 405}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 23}";
+		};
+	};
+	DD5241C2129DD9AB006F6330 /* HEAD */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 405}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1940}";
+		};
+	};
+	DD5241E5129DD9AB006F6330 /* README */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text;
+		name = README;
+		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addons/ofxKinectTracking/README";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 405}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 83}";
 		};
 	};
 	DD5241E7129DD9AB006F6330 /* ofxKinectTracking.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 4433}}";
-			sepNavSelRange = "{179, 0}";
-			sepNavVisRange = "{0, 599}";
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 4277}}";
+			sepNavSelRange = "{5399, 0}";
+			sepNavVisRange = "{4688, 855}";
 			sepNavWindowFrame = "{{626, 50}, {814, 828}}";
 		};
 	};
@@ -692,185 +344,6 @@
 			sepNavVisRange = "{0, 465}";
 			sepNavWindowFrame = "{{1935, -260}, {629, 898}}";
 		};
-	};
-	DD52420D129DDA7B006F6330 /* MSAOpenCL.cpp */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.cpp.cpp;
-		name = MSAOpenCL.cpp;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSAOpenCL/src/MSAOpenCL.cpp";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 4654}}";
-			sepNavSelRange = "{2580, 57}";
-			sepNavVisRange = "{1949, 1672}";
-			sepNavWindowFrame = "{{1935, -260}, {629, 898}}";
-		};
-	};
-	DD52420F129DDA7B006F6330 /* MSAOpenCLBuffer.cpp */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.cpp.cpp;
-		name = MSAOpenCLBuffer.cpp;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSAOpenCL/src/MSAOpenCLBuffer.cpp";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 1443}}";
-			sepNavSelRange = "{2406, 50}";
-			sepNavVisRange = "{1950, 939}";
-			sepNavWindowFrame = "{{1935, -213}, {749, 848}}";
-		};
-	};
-	DD524210129DDA7B006F6330 /* MSAOpenCLBuffer.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = MSAOpenCLBuffer.h;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSAOpenCL/src/MSAOpenCLBuffer.h";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 1274}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{2564, 1035}";
-		};
-	};
-	DD524211129DDA7B006F6330 /* MSAOpenCLImage.cpp */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.cpp.cpp;
-		name = MSAOpenCLImage.cpp;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSAOpenCL/src/MSAOpenCLImage.cpp";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1426, 2899}}";
-			sepNavSelRange = "{2439, 45}";
-			sepNavVisRange = "{2139, 817}";
-		};
-	};
-	DD524213129DDA7B006F6330 /* MSAOpenCLImagePingPong.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = MSAOpenCLImagePingPong.h;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSAOpenCL/src/MSAOpenCLImagePingPong.h";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 1443}}";
-			sepNavSelRange = "{531, 23}";
-			sepNavVisRange = "{0, 594}";
-		};
-	};
-	DD524214129DDA7B006F6330 /* MSAOpenCLKernel.cpp */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.cpp.cpp;
-		name = MSAOpenCLKernel.cpp;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSAOpenCL/src/MSAOpenCLKernel.cpp";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 1651}}";
-			sepNavSelRange = "{3371, 106}";
-			sepNavVisRange = "{2461, 1778}";
-		};
-	};
-	DD524215129DDA7B006F6330 /* MSAOpenCLKernel.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = MSAOpenCLKernel.h;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSAOpenCL/src/MSAOpenCLKernel.h";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 1261}}";
-			sepNavSelRange = "{2403, 38}";
-			sepNavVisRange = "{1994, 1730}";
-		};
-	};
-	DD524216129DDA7B006F6330 /* MSAOpenCLMemoryObject.cpp */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.cpp.cpp;
-		name = MSAOpenCLMemoryObject.cpp;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSAOpenCL/src/MSAOpenCLMemoryObject.cpp";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 832}}";
-			sepNavSelRange = "{2381, 42}";
-			sepNavVisRange = "{164, 2437}";
-		};
-	};
-	DD524217129DDA7B006F6330 /* MSAOpenCLMemoryObject.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = MSAOpenCLMemoryObject.h;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSAOpenCL/src/MSAOpenCLMemoryObject.h";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 832}}";
-			sepNavSelRange = "{2049, 28}";
-			sepNavVisRange = "{164, 2159}";
-			sepNavWindowFrame = "{{2596, -211}, {629, 828}}";
-		};
-	};
-	DD524218129DDA7B006F6330 /* MSAOpenCLProgram.cpp */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.cpp.cpp;
-		name = MSAOpenCLProgram.cpp;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSAOpenCL/src/MSAOpenCLProgram.cpp";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1523, 2717}}";
-			sepNavSelRange = "{2448, 74}";
-			sepNavVisRange = "{1969, 856}";
-		};
-	};
-	DD52422D129DDA98006F6330 /* install.xml */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = text.xml;
-		name = install.xml;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSACore/install.xml";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1172, 559}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1187}";
-		};
-	};
-	DD52423B129DDA98006F6330 /* MSACoreMath.h */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = sourcecode.c.h;
-		name = MSACoreMath.h;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSACore/src/MSACoreMath.h";
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 1300}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1894}";
-		};
-	};
-	DD524264129DDDC4006F6330 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD52422D129DDA98006F6330 /* install.xml */;
-		name = "install.xml: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1187;
-		vrLoc = 0;
-	};
-	DD524267129DDDC4006F6330 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD52423B129DDA98006F6330 /* MSACoreMath.h */;
-		name = "MSACoreMath.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1894;
-		vrLoc = 0;
 	};
 	DD52426A129DDDC4006F6330 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -913,15 +386,58 @@
 		path = /System/Library/Frameworks/OpenCL.framework/Versions/A/Headers/cl.h;
 		sourceTree = "<absolute>";
 	};
-	DDDDDACC12A011E500521345 /* PBXTextBookmark */ = {
+	DD82884312B009B7009AC8D3 /* libfreenect.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 2392}}";
+			sepNavSelRange = "{3135, 0}";
+			sepNavVisRange = "{2843, 929}";
+		};
+	};
+	DD82886D12B00BBC009AC8D3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = DD4EE5F9129EF591001565D0 /* ofxKinect.h */;
-		name = "ofxKinect.h: 1";
+		fRef = DD5241E7129DD9AB006F6330 /* ofxKinectTracking.cpp */;
+		name = "ofxKinectTracking.cpp: 21";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 342;
 		rType = 0;
-		vrLen = 1313;
+		vrLen = 596;
+		vrLoc = 3;
+	};
+	DD82886E12B00BBC009AC8D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Libusb-1.0/libusb.h: No such file or directory";
+		fRef = DD82884312B009B7009AC8D3 /* libfreenect.h */;
+		rLen = 1;
+		rLoc = 102;
+		rType = 1;
+	};
+	DD82886F12B00BBC009AC8D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD82884312B009B7009AC8D3 /* libfreenect.h */;
+		name = "libfreenect.h: 6";
+		rLen = 0;
+		rLoc = 177;
+		rType = 0;
+		vrLen = 1205;
 		vrLoc = 0;
+	};
+	DD82888112B00C8D009AC8D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Libusb-1.0/libusb.h: No such file or directory";
+		fRef = DD82884312B009B7009AC8D3 /* libfreenect.h */;
+		rLen = 1;
+		rLoc = 102;
+		rType = 1;
+	};
+	DD82888212B00C8D009AC8D3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD82884312B009B7009AC8D3 /* libfreenect.h */;
+		name = "libfreenect.h: 99";
+		rLen = 0;
+		rLoc = 2970;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 2658;
 	};
 	DDDDDB2612A0138A00521345 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -970,60 +486,6 @@
 		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/libs/openFrameworks/video/ofVideoGrabber.h";
 		sourceTree = "<absolute>";
 	};
-	DDDDDBBA12A12EF900521345 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD524211129DDA7B006F6330 /* MSAOpenCLImage.cpp */;
-		name = "MSAOpenCLImage.cpp: 55";
-		rLen = 45;
-		rLoc = 2439;
-		rType = 0;
-		vrLen = 817;
-		vrLoc = 2139;
-	};
-	DDDDDBD912A12FCE00521345 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DDDDDBDA12A12FCE00521345 /* testApp.h */;
-		name = "testApp.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 466;
-		vrLoc = 0;
-	};
-	DDDDDBDA12A12FCE00521345 /* testApp.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = testApp.h;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSAOpenCL/examples/openFrameworks/MSAOpenCL example - images/src/testApp.h";
-		sourceTree = "<absolute>";
-	};
-	DDDDDBDF12A12FCE00521345 /* testApp.cpp */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.cpp.cpp;
-		name = testApp.cpp;
-		path = "/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addonsMemo/MSAOpenCL/examples/openFrameworks/MSAOpenCL example - images/src/testApp.cpp";
-		sourceTree = "<absolute>";
-	};
-	DDDDDC0112A130C400521345 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DDDDDBDF12A12FCE00521345 /* testApp.cpp */;
-		name = "testApp.cpp: 51";
-		rLen = 57;
-		rLoc = 1001;
-		rType = 0;
-		vrLen = 776;
-		vrLoc = 563;
-	};
-	DDDDDC2612A131C900521345 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
-		name = "testApp.cpp: 35";
-		rLen = 0;
-		rLoc = 679;
-		rType = 0;
-		vrLen = 825;
-		vrLoc = 398;
-	};
 	DDDDDC3C12A1333800521345 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DD5241E8129DD9AB006F6330 /* ofxKinectTracking.h */;
@@ -1034,26 +496,6 @@
 		vrLen = 465;
 		vrLoc = 0;
 	};
-	DDDDDC3D12A1333800521345 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD524210129DDA7B006F6330 /* MSAOpenCLBuffer.h */;
-		name = "MSAOpenCLBuffer.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1035;
-		vrLoc = 2564;
-	};
-	DDDDDC3E12A1333800521345 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD52420F129DDA7B006F6330 /* MSAOpenCLBuffer.cpp */;
-		name = "MSAOpenCLBuffer.cpp: 53";
-		rLen = 50;
-		rLoc = 2406;
-		rType = 0;
-		vrLen = 939;
-		vrLoc = 1950;
-	};
 	DDDDDCEA12A4619000521345 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DD4EE5E4129EF591001565D0 /* libusb.h */;
@@ -1063,56 +505,6 @@
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 0;
-	};
-	DDDDDCF712A464BB00521345 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD4EE5DF129EF591001565D0 /* usb_libusb10.h */;
-		name = "usb_libusb10.h: 29";
-		rLen = 0;
-		rLoc = 1142;
-		rType = 0;
-		vrLen = 1348;
-		vrLoc = 80;
-	};
-	DDDDDCF812A464BB00521345 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD4EE5F8129EF591001565D0 /* ofxKinect.cpp */;
-		name = "ofxKinect.cpp: 208";
-		rLen = 0;
-		rLoc = 5807;
-		rType = 0;
-		vrLen = 740;
-		vrLoc = 5837;
-	};
-	DDDDDD1112A46ABD00521345 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD5241E7129DD9AB006F6330 /* ofxKinectTracking.cpp */;
-		name = "ofxKinectTracking.cpp: 9";
-		rLen = 0;
-		rLoc = 138;
-		rType = 0;
-		vrLen = 511;
-		vrLoc = 123;
-	};
-	DDDDDD1212A46ABD00521345 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD4EE3DC129EA37B001565D0 /* KinectTracking.cl */;
-		name = "KinectTracking.cl: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 671;
-		vrLoc = 0;
-	};
-	DDDDDD1512A478AF00521345 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD4EE3DC129EA37B001565D0 /* KinectTracking.cl */;
-		name = "KinectTracking.cl: 280";
-		rLen = 0;
-		rLoc = 6390;
-		rType = 0;
-		vrLen = 1048;
-		vrLoc = 6007;
 	};
 	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
@@ -1150,72 +542,39 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 313343526;
-			PBXWorkspaceStateSaveDate = 313343526;
+			PBXPerProjectTemplateStateSaveDate = 313527768;
+			PBXWorkspaceStateSaveDate = 313527768;
 		};
 		perUserProjectItems = {
-			DD11C4FF129FEF9600844361 = DD11C4FF129FEF9600844361 /* PBXTextBookmark */;
-			DD11C71D129FFEFC00844361 = DD11C71D129FFEFC00844361 /* PBXTextBookmark */;
-			DD11C727129FFF1300844361 = DD11C727129FFF1300844361 /* PBXTextBookmark */;
-			DD21DC9912AD417E001DAFDD /* PBXTextBookmark */ = DD21DC9912AD417E001DAFDD /* PBXTextBookmark */;
-			DD21DC9A12AD417E001DAFDD /* PBXTextBookmark */ = DD21DC9A12AD417E001DAFDD /* PBXTextBookmark */;
-			DD21DC9B12AD417E001DAFDD /* PBXTextBookmark */ = DD21DC9B12AD417E001DAFDD /* PBXTextBookmark */;
-			DD21DC9C12AD417E001DAFDD /* PBXTextBookmark */ = DD21DC9C12AD417E001DAFDD /* PBXTextBookmark */;
-			DD21DC9D12AD417E001DAFDD /* PBXTextBookmark */ = DD21DC9D12AD417E001DAFDD /* PBXTextBookmark */;
-			DD21DC9E12AD417E001DAFDD /* PBXTextBookmark */ = DD21DC9E12AD417E001DAFDD /* PBXTextBookmark */;
-			DD21DC9F12AD417E001DAFDD /* PBXTextBookmark */ = DD21DC9F12AD417E001DAFDD /* PBXTextBookmark */;
-			DD21DCA012AD417E001DAFDD /* PBXTextBookmark */ = DD21DCA012AD417E001DAFDD /* PBXTextBookmark */;
-			DD21DCBF12AD4286001DAFDD /* PBXTextBookmark */ = DD21DCBF12AD4286001DAFDD /* PBXTextBookmark */;
-			DD21DCC012AD4286001DAFDD /* PBXTextBookmark */ = DD21DCC012AD4286001DAFDD /* PBXTextBookmark */;
-			DD21DCC112AD4286001DAFDD /* PBXTextBookmark */ = DD21DCC112AD4286001DAFDD /* PBXTextBookmark */;
-			DD21DCC212AD4286001DAFDD /* PBXTextBookmark */ = DD21DCC212AD4286001DAFDD /* PBXTextBookmark */;
-			DD21DCC312AD4286001DAFDD /* PBXTextBookmark */ = DD21DCC312AD4286001DAFDD /* PBXTextBookmark */;
-			DD21DCC812AD42AB001DAFDD /* PBXTextBookmark */ = DD21DCC812AD42AB001DAFDD /* PBXTextBookmark */;
-			DD21DCC912AD42AB001DAFDD /* PBXTextBookmark */ = DD21DCC912AD42AB001DAFDD /* PBXTextBookmark */;
-			DD21DCCA12AD42AB001DAFDD /* PBXTextBookmark */ = DD21DCCA12AD42AB001DAFDD /* PBXTextBookmark */;
-			DD21DCCB12AD42AB001DAFDD /* PBXTextBookmark */ = DD21DCCB12AD42AB001DAFDD /* PBXTextBookmark */;
-			DD21DCCC12AD42AB001DAFDD /* PBXTextBookmark */ = DD21DCCC12AD42AB001DAFDD /* PBXTextBookmark */;
-			DD21DCD112AD42E6001DAFDD /* PBXTextBookmark */ = DD21DCD112AD42E6001DAFDD /* PBXTextBookmark */;
-			DD21DCD512AD42F9001DAFDD /* PBXTextBookmark */ = DD21DCD512AD42F9001DAFDD /* PBXTextBookmark */;
+			DD21DCC812AD42AB001DAFDD = DD21DCC812AD42AB001DAFDD /* PBXTextBookmark */;
+			DD21DCC912AD42AB001DAFDD = DD21DCC912AD42AB001DAFDD /* PBXTextBookmark */;
+			DD21DCCA12AD42AB001DAFDD = DD21DCCA12AD42AB001DAFDD /* PBXTextBookmark */;
+			DD21DCCB12AD42AB001DAFDD = DD21DCCB12AD42AB001DAFDD /* PBXTextBookmark */;
+			DD21DEEA12AE7B84001DAFDD = DD21DEEA12AE7B84001DAFDD /* PBXTextBookmark */;
+			DD350E2612B00DE600953E21 /* PBXTextBookmark */ = DD350E2612B00DE600953E21 /* PBXTextBookmark */;
 			DD4EE055129DEF31001565D0 = DD4EE055129DEF31001565D0 /* PBXTextBookmark */;
 			DD4EE057129DEF31001565D0 = DD4EE057129DEF31001565D0 /* PBXTextBookmark */;
 			DD4EE058129DEF31001565D0 = DD4EE058129DEF31001565D0 /* PBXTextBookmark */;
 			DD4EE2EC129E9B39001565D0 = DD4EE2EC129E9B39001565D0 /* PBXTextBookmark */;
-			DD4EE3E2129EA3E5001565D0 = DD4EE3E2129EA3E5001565D0 /* PBXTextBookmark */;
-			DD4EE41D129EA5D1001565D0 = DD4EE41D129EA5D1001565D0 /* PBXTextBookmark */;
 			DD4EE60C129EF5B8001565D0 = DD4EE60C129EF5B8001565D0 /* PBXTextBookmark */;
-			DD4EE60D129EF5B8001565D0 = DD4EE60D129EF5B8001565D0 /* PBXTextBookmark */;
-			DD4EE61D129EF619001565D0 = DD4EE61D129EF619001565D0 /* PBXTextBookmark */;
 			DD4EE61E129EF619001565D0 = DD4EE61E129EF619001565D0 /* PBXTextBookmark */;
-			DD4EE63F129F11CB001565D0 = DD4EE63F129F11CB001565D0 /* PBXTextBookmark */;
-			DD4EE640129F11CB001565D0 = DD4EE640129F11CB001565D0 /* PBXTextBookmark */;
-			DD4EE641129F11CB001565D0 = DD4EE641129F11CB001565D0 /* PBXTextBookmark */;
 			DD4EE656129F14A4001565D0 = DD4EE656129F14A4001565D0 /* PBXTextBookmark */;
 			DD52406F129D73E9006F6330 = DD52406F129D73E9006F6330 /* PlistBookmark */;
 			DD524074129D73E9006F6330 = DD524074129D73E9006F6330 /* PBXTextBookmark */;
 			DD524151129D7893006F6330 = DD524151129D7893006F6330 /* PBXTextBookmark */;
-			DD524264129DDDC4006F6330 = DD524264129DDDC4006F6330 /* PBXTextBookmark */;
-			DD524267129DDDC4006F6330 = DD524267129DDDC4006F6330 /* PBXTextBookmark */;
 			DD52426A129DDDC4006F6330 = DD52426A129DDDC4006F6330 /* PBXTextBookmark */;
 			DD5242DE129DDFE1006F6330 = DD5242DE129DDFE1006F6330 /* PBXTextBookmark */;
-			DDDDDACC12A011E500521345 = DDDDDACC12A011E500521345 /* PBXTextBookmark */;
+			DD82886D12B00BBC009AC8D3 = DD82886D12B00BBC009AC8D3 /* PBXTextBookmark */;
+			DD82886E12B00BBC009AC8D3 = DD82886E12B00BBC009AC8D3 /* PBXTextBookmark */;
+			DD82886F12B00BBC009AC8D3 = DD82886F12B00BBC009AC8D3 /* PBXTextBookmark */;
+			DD82888112B00C8D009AC8D3 = DD82888112B00C8D009AC8D3 /* PBXTextBookmark */;
+			DD82888212B00C8D009AC8D3 = DD82888212B00C8D009AC8D3 /* PBXTextBookmark */;
 			DDDDDB2612A0138A00521345 = DDDDDB2612A0138A00521345 /* PBXTextBookmark */;
 			DDDDDB2712A0138A00521345 = DDDDDB2712A0138A00521345 /* PBXTextBookmark */;
 			DDDDDB7312A12B1500521345 = DDDDDB7312A12B1500521345 /* PBXTextBookmark */;
 			DDDDDBAD12A12BFF00521345 = DDDDDBAD12A12BFF00521345 /* PBXTextBookmark */;
-			DDDDDBBA12A12EF900521345 = DDDDDBBA12A12EF900521345 /* PBXTextBookmark */;
-			DDDDDBD912A12FCE00521345 = DDDDDBD912A12FCE00521345 /* PBXTextBookmark */;
-			DDDDDC0112A130C400521345 = DDDDDC0112A130C400521345 /* PBXTextBookmark */;
-			DDDDDC2612A131C900521345 = DDDDDC2612A131C900521345 /* PBXTextBookmark */;
 			DDDDDC3C12A1333800521345 = DDDDDC3C12A1333800521345 /* PBXTextBookmark */;
-			DDDDDC3D12A1333800521345 = DDDDDC3D12A1333800521345 /* PBXTextBookmark */;
-			DDDDDC3E12A1333800521345 = DDDDDC3E12A1333800521345 /* PBXTextBookmark */;
 			DDDDDCEA12A4619000521345 = DDDDDCEA12A4619000521345 /* PBXTextBookmark */;
-			DDDDDCF712A464BB00521345 = DDDDDCF712A464BB00521345 /* PBXTextBookmark */;
-			DDDDDCF812A464BB00521345 = DDDDDCF812A464BB00521345 /* PBXTextBookmark */;
-			DDDDDD1112A46ABD00521345 = DDDDDD1112A46ABD00521345 /* PBXTextBookmark */;
-			DDDDDD1212A46ABD00521345 = DDDDDD1212A46ABD00521345 /* PBXTextBookmark */;
-			DDDDDD1512A478AF00521345 = DDDDDD1512A478AF00521345 /* PBXTextBookmark */;
 		};
 		sourceControlManager = DD523DCB129D37E5006F6330 /* Source Control */;
 		userBuildSettings = {
@@ -1229,7 +588,7 @@
 	};
 	E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1043, 428}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 405}}";
 			sepNavSelRange = "{0, 20}";
 			sepNavVisRange = "{0, 414}";
 		};
@@ -1246,6 +605,13 @@
 			sepNavIntBoundsRect = "{{0, 0}, {1043, 477}}";
 			sepNavSelRange = "{88, 0}";
 			sepNavVisRange = "{0, 495}";
+		};
+	};
+	E4F055F91293A22200BAAF7C /* install.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 520}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1265}";
 		};
 	};
 }
