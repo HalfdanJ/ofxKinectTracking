@@ -236,6 +236,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -286,8 +288,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>19</integer>
-									<integer>18</integer>
+									<integer>14</integer>
+									<integer>13</integer>
+									<integer>11</integer>
 									<integer>10</integer>
 									<integer>0</integer>
 								</array>
@@ -321,14 +324,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>DD523DB3129D37AA006F6330</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>libfreenect.h</string>
+								<string>KinectTracking.cl</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -336,11 +337,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>DD523DB4129D37AA006F6330</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>libfreenect.h</string>
+										<string>KinectTracking.cl</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DD350E2612B00DE600953E21</string>
+										<string>DD350E7012B02E9400953E21</string>
 										<key>history</key>
 										<array>
 											<string>DD52406F129D73E9006F6330</string>
@@ -355,14 +356,17 @@
 											<string>DD4EE656129F14A4001565D0</string>
 											<string>DDDDDB2612A0138A00521345</string>
 											<string>DDDDDB2712A0138A00521345</string>
-											<string>DDDDDB7312A12B1500521345</string>
 											<string>DDDDDBAD12A12BFF00521345</string>
-											<string>DDDDDC3C12A1333800521345</string>
-											<string>DD21DCC812AD42AB001DAFDD</string>
-											<string>DD21DCC912AD42AB001DAFDD</string>
-											<string>DD21DCCA12AD42AB001DAFDD</string>
-											<string>DD82886D12B00BBC009AC8D3</string>
-											<string>DD82888212B00C8D009AC8D3</string>
+											<string>DD350E6612B02E9400953E21</string>
+											<string>DD350E6712B02E9400953E21</string>
+											<string>DD350E6812B02E9400953E21</string>
+											<string>DD350E6912B02E9400953E21</string>
+											<string>DD350E6A12B02E9400953E21</string>
+											<string>DD350E6B12B02E9400953E21</string>
+											<string>DD350E6C12B02E9400953E21</string>
+											<string>DD350E6D12B02E9400953E21</string>
+											<string>DD350E6E12B02E9400953E21</string>
+											<string>DD350E6F12B02E9400953E21</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -376,18 +380,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1104, 462}}</string>
+								<string>{{0, 0}, {1104, 727}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 105 1440 773 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>462pt</string>
+							<string>727pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>265pt</string>
+							<string>0pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -401,7 +405,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1104, 238}}</string>
+										<string>{{10, 27}, {1104, -27}}</string>
 										<key>RubberWindowFrame</key>
 										<string>0 105 1440 773 0 0 1440 878 </string>
 									</dict>
@@ -437,7 +441,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 31}, {603, 297}}</string>
+										<string>{{10, 27}, {1104, 238}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXCVSModule</string>
@@ -678,7 +682,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>DD350E3012B00DE600953E21</string>
 		<string>DD350E3112B00DE600953E21</string>
 		<string>DD350E3212B00DE600953E21</string>
 		<string>/Users/jonas/Documents/udvilking/openframeworks-openFrameworks-5768292/addons/ofxKinectTracking/trackingExample/kinectTrackingExample.xcodeproj</string>

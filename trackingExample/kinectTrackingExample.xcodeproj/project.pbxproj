@@ -135,6 +135,20 @@
 		DD5241BD129DD9AB006F6330 /* update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update.sample; sourceTree = "<group>"; };
 		DD5241BE129DD9AB006F6330 /* index */ = {isa = PBXFileReference; lastKnownFileType = file; path = index; sourceTree = "<group>"; };
 		DD5241C2129DD9AB006F6330 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
+		DD5241C5129DD9AB006F6330 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		DD5241C8129DD9AB006F6330 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		DD5241CB129DD9AB006F6330 /* 898ca8f62bab46f99a06b9a20849a101384ea2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 898ca8f62bab46f99a06b9a20849a101384ea2; sourceTree = "<group>"; };
+		DD5241CD129DD9AB006F6330 /* 3b9bebdc6bd5c4b22136034a95dd097a57d3dd */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3b9bebdc6bd5c4b22136034a95dd097a57d3dd; sourceTree = "<group>"; };
+		DD5241CF129DD9AB006F6330 /* a46175d25fe876d7c25f262a6e1446a2ee9dae */ = {isa = PBXFileReference; lastKnownFileType = text; path = a46175d25fe876d7c25f262a6e1446a2ee9dae; sourceTree = "<group>"; };
+		DD5241D1129DD9AB006F6330 /* f3083f9cf359b62dcb15431875b3b01482f78f */ = {isa = PBXFileReference; lastKnownFileType = text; path = f3083f9cf359b62dcb15431875b3b01482f78f; sourceTree = "<group>"; };
+		DD5241D3129DD9AB006F6330 /* 24a2ec4aff765597318935d4e22079a990cbeb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 24a2ec4aff765597318935d4e22079a990cbeb; sourceTree = "<group>"; };
+		DD5241D5129DD9AB006F6330 /* 2e189b28bd28182c6c80e31457d96679e6c877 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2e189b28bd28182c6c80e31457d96679e6c877; sourceTree = "<group>"; };
+		DD5241D7129DD9AB006F6330 /* a5120147ad7ce9c63fb3b133366a382c3c9f7c */ = {isa = PBXFileReference; lastKnownFileType = text; path = a5120147ad7ce9c63fb3b133366a382c3c9f7c; sourceTree = "<group>"; };
+		DD5241D9129DD9AB006F6330 /* 9de29bb2d1d6434b8b29ae775ad8c2e48c5391 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 9de29bb2d1d6434b8b29ae775ad8c2e48c5391; sourceTree = "<group>"; };
+		DD5241DB129DD9AB006F6330 /* 86c87a1143da25907953869dcfe094d556b5e9 */ = {isa = PBXFileReference; lastKnownFileType = text; path = 86c87a1143da25907953869dcfe094d556b5e9; sourceTree = "<group>"; };
+		DD5241E0129DD9AB006F6330 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		DD5241E3129DD9AB006F6330 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
+		DD5241E5129DD9AB006F6330 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		DD5241E7129DD9AB006F6330 /* ofxKinectTracking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxKinectTracking.cpp; sourceTree = "<group>"; };
 		DD5241E8129DD9AB006F6330 /* ofxKinectTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxKinectTracking.h; sourceTree = "<group>"; };
 		DD5242A5129DDE00006F6330 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = /System/Library/Frameworks/OpenCL.framework; sourceTree = "<absolute>"; };
@@ -1047,6 +1061,7 @@
 			isa = PBXProject;
 			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "kinectTrackingExample" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				English,
