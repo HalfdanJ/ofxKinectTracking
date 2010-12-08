@@ -1,6 +1,6 @@
 
 #define dieThreshold 2/255.0//0.03921568627
-#define friendThreshold 2/255.0 //0.007843137255
+#define friendThreshold 1/255.0 //0.007843137255
 #define switchBackThreshold 2/255.0
 
 typedef struct{
@@ -126,19 +126,29 @@ __kernel void preUpdate(read_only image2d_t srcImage,  __global Ant* pIn){
 	a->value = value;
 	
 	//Kill ants that have moved to fast
-	if(fabs(value - a->lastValue) > dieThreshold){
-		a->lastGroup = a->group;
-		a->lastGroupTime = a->groupTime;
+	if(a->group != -1 && fabs(value - a->lastValue) > dieThreshold ){
+		
+		if(a->groupTime > a->lastGroupTime)
+		{
+			a->lastGroupTime = a->groupTime;
+			a->lastGroupValue = a->lastValue;
+			a->lastGroup = a->group;
+		}
+		
 		a->group = -1;
 		a->groupTime = 0;
-		a->lastGroupValue = a->lastValue;
+		
 	}
 	
 	
 	
 	//Update lastValue to the current value
-	a->lastValue = value;	
-	a->groupTime ++;
+	a->lastValue = value;
+	if(	a->group != -1)
+	{
+		a->groupTime ++;
+	}
+	
 }
 
 
@@ -154,16 +164,23 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 	
 	
 	
-	
+	//If im closer to my old group, switch
+	if(a->lastGroup != -1 && fabs(a->lastGroupValue - value) <= switchBackThreshold){
+		group =  a->lastGroup;
+		a->groupTime = a->lastGroupTime;
+		if(a->groupTime > a->lastGroupTime)
+		{
+			a->lastGroupTime = a->groupTime;
+			a->lastGroupValue = a->lastValue;
+			a->lastGroup = a->group;
+		}
+	}
 	
 	if(group == -1 && value > 0)
 	{
 		
-		//If im closer to my old group, switch
-		/*if(fabs(a->lastGroupValue - value) < switchBackThreshold){
-		 group = a->lastGroup;
-		 }
-		 */
+		
+		
 		
 		//Check neighbor to the right
 		float friendDifference = 1;
@@ -195,7 +212,7 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 		}
 		
 		//Check neighbor to the left
-			if(group == -1)
+		if(group == -1)
 		{
 			int2 neighborCoord = coords; 
 			neighborCoord.x -= 1;		
@@ -347,11 +364,12 @@ __kernel void update(__global Ant* pIn, __global int * sharedVariables, const in
 			}			
 		}
 		
-		//Update the groupvalue in the global memory if changed
-		if(group != initialGroup){
-			a->groupTime = 0;
-			a->group = group;
-		}
+		
+	}
+	//Update the groupvalue in the global memory if changed
+	if(group != initialGroup){
+		//a->groupTime = 0;
+		a->group = group;
 	}
 }
 
